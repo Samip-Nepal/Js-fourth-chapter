@@ -1,7 +1,10 @@
 //slice(),splice()
 let name=["Samip","Diwas","Usha","Amisha","kripa"];
-console.log(name.slice(1,3));
+name.splice(1,1,"Aashika");
+console.log(name);
 
+
+// console.log(name.slice(1,3));
 //concat,unshift,shift
 //  let name=["Samip","Diwas","Usha"];
 //  name.shift();
@@ -10,7 +13,6 @@ console.log(name.slice(1,3));
 //  let color=["yellow","blue","red"];
 //  let concat=name.concat(age,color);
 //  console.log(concat);
-
 //array method
 //push(),pop(),tostring
 // let name=["Samip","Diwas","Usha"];
