@@ -1,19 +1,27 @@
+//concat,unshift,shift
+ let name=["Samip","Diwas","Usha"];
+ let age=[21,24,23];
+ let color=["yellow","blue","red"];
+ let concat=name.concat(age,color);
+ console.log(concat);
+
+
+
+
+
+
 //array method
-//push(),pop()
-let name=["Samip","Diwas","Usha"];
-console.log(name);
-console.log(name.toString());
+//push(),pop(),tostring
+// let name=["Samip","Diwas","Usha"];
+// console.log(name);
+// console.log(name.toString());
 // console.log(name);
 // name.pop();
 // console.log(name);
 // let names=name.pop();
 // console.log(names);
-
 // name.push("Don");
 // console.log(name);
-
-
-
 // pratice qn 2
 // let items=[250,645,300,900,50];
 // for(i=0;i<items.length;i++)
