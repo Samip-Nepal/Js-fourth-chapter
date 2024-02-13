@@ -1,7 +1,11 @@
+//slice(),splice()
+let name=["Samip","Diwas","Usha","Amisha","kripa"];
+console.log(name.slice(1,3));
+
 //concat,unshift,shift
- let name=["Samip","Diwas","Usha"];
- name.shift();
- console.log(name);
+//  let name=["Samip","Diwas","Usha"];
+//  name.shift();
+//  console.log(name);
 //  let age=[21,24,23];
 //  let color=["yellow","blue","red"];
 //  let concat=name.concat(age,color);
