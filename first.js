@@ -1,14 +1,11 @@
 //concat,unshift,shift
  let name=["Samip","Diwas","Usha"];
- let age=[21,24,23];
- let color=["yellow","blue","red"];
- let concat=name.concat(age,color);
- console.log(concat);
-
-
-
-
-
+ name.unshift("Ashika");
+ console.log(name);
+//  let age=[21,24,23];
+//  let color=["yellow","blue","red"];
+//  let concat=name.concat(age,color);
+//  console.log(concat);
 
 //array method
 //push(),pop(),tostring
