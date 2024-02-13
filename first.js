@@ -2,8 +2,13 @@
 //push(),pop()
 let name=["Samip","Diwas","Usha"];
 console.log(name);
-name.push("Don");
+name.pop();
 console.log(name);
+let names=name.pop();
+console.log(names);
+
+// name.push("Don");
+// console.log(name);
 
 
 
