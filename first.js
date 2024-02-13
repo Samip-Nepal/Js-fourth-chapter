@@ -1,12 +1,21 @@
-//pratice qn 2
-let items=[250,645,300,900,50];
-for(i=0;i<items.length;i++)
-{
-    let value=items[i]/10;
-    let off=items[i]-value;
-  items[i]=off;
-console.log(`The value of  item after 10% off ${items[i]}`);
-}
+//array method
+//push(),pop()
+let name=["Samip","Diwas","Usha"];
+console.log(name);
+name.push("Don");
+console.log(name);
+
+
+
+// pratice qn 2
+// let items=[250,645,300,900,50];
+// for(i=0;i<items.length;i++)
+// {
+//     let value=items[i]/10;
+//     let off=items[i]-value;
+//   items[i]=off;
+// console.log(`The value of  item after 10% off ${items[i]}`);
+// }
 //pratice qn 1
 // let marks=[85,97,44,37,76,60];
 // let sum=0;
