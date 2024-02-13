@@ -1,9 +1,16 @@
+//pratice qn 
+
+let companies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+companies.shift();
+console.log(companies);
+companies.splice(2,1,"Ola");
+console.log(companies);
+companies.push("amazon");
+console.log(companies);
 //slice(),splice()
-let name=["Samip","Diwas","Usha","Amisha","kripa"];
-name.splice(1,1,"Aashika");
-console.log(name);
-
-
+// let name=["Samip","Diwas","Usha","Amisha","kripa"];
+// name.splice(1,1,"Aashika");
+// console.log(name);
 // console.log(name.slice(1,3));
 //concat,unshift,shift
 //  let name=["Samip","Diwas","Usha"];
