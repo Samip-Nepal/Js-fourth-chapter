@@ -1,6 +1,6 @@
 //concat,unshift,shift
  let name=["Samip","Diwas","Usha"];
- name.unshift("Ashika");
+ name.shift();
  console.log(name);
 //  let age=[21,24,23];
 //  let color=["yellow","blue","red"];
